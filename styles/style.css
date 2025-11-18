@@ -73,6 +73,7 @@ body {
 
 .artists {
     display: flex;
+    gap: 15px;
 }
 
 
@@ -144,6 +145,10 @@ body {
     gap: 15px;
 }
 
-.round-card {
+.artists-card {
     margin-top: 40px;
+}
+
+.round {
+    border-radius: 50%;
 }
