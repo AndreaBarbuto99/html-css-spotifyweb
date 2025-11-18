@@ -8,17 +8,28 @@
 /* FORMAT RULES */
 .main-flex {
     height: calc(100vh - 100px );
+    display: flex;
 }
 
-
 .control-bar {
-    height: 100px
+    height: 100px;
+    background-color: #282828;
 }
 
 .left-bar {
     width: 200px;
+    background-color: black;
+    flex-shrink: 0;
 }
 
+.your-header {
+    height: 100px;
+}
+
+.your-page {
+    width: calc(100% - 200px);
+    background-color: #141922;
+}
 
 
 
@@ -36,7 +47,5 @@
 
 /* STYLE RULES */
 
-.main-flex {
-    display: flex;
-}
+
 
