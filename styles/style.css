@@ -5,9 +5,17 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 /* FORMAT RULES */
 .main-flex {
-    height: calc(100vh - 100px );
+    height: calc(100vh - 100px);
     display: flex;
 }
 
@@ -24,18 +32,63 @@
 
 .your-header {
     height: 100px;
+    background-color: rgb(8, 11, 18, 0.5);
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 
 .your-page {
     width: calc(100% - 200px);
     background-color: #141922;
+    font-weight: 600;
+}
+
+.nav-bar {
+    margin-top: 20px;
+}
+
+.nav-bar a {
+    padding: 10px;
+}
+
+.img-width {
+    width: 200px;
+}
+
+.playlist-card figcaption {
+    padding-top: 20px;
+}
+
+.top-pad {
+    padding-top: 10px;
 }
 
 
 
 /* CENTRALIZED RULES */
 
+.white {
+    color: white;
+}
 
+.grey {
+    color: #7A7D81;
+}
+
+.your-page-title {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-page {
+    margin-left: 20px;
+}
 
 
 
@@ -47,5 +100,32 @@
 
 /* STYLE RULES */
 
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
 
+.your-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.upgrade-button {
+    margin-right: 50px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.your-playlist {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.playlist-card {
+    width: calc((100%/6) - (75px/5));
+}
 

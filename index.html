@@ -1,18 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/responsive.css">
 </head>
+
 <body>
     <main>
+        <!-- CONTAINER FLEX -->
         <div class="main-flex">
+
+            <!-- LEFT BAR -->
             <section class="left-bar"></section>
+
+
+            <!-- MAIN PAGE -->
             <section class="your-page">
-                <div class="your-header"></div>
+
+                <div class="your-header">
+                    <a href="#" class="upgrade-button white">EFFETTUA L'UPGRADE</a>
+                </div>
+                <!-- NAV BAR -->
+                <div class="nav-bar">
+                    <a href="#" class="here-bar grey">IN EVIDENZA</a>
+                    <a href="#" class="here-bar grey">PODCAST</a>
+                    <a href="#" class="here-bar grey">CLASSIFICHE</a>
+                    <a href="#" class="here-bar grey">GENERI E MOOD</a>
+                    <a href="#" class="here-bar grey">NUOVE USCITE</a>
+                    <a href="#" class="here-bar grey">SCOPRI</a>
+                </div>
+
+                <!-- PLAYLIST CARD SECTION -->
+                <h2 class="your-page-title white margin-page">Recently played</h2>
+                <div class="your-playlist margin-page">
+
+                    <figure class="playlist-card">
+
+                        <img src="./img/metal_lifting.jpg" alt="metal-playlist" class="img-width">
+                        <figcaption>
+                            <h3 class="white text-center">Heavy Metal</h3>
+                            <div class="grey text-center top-pad">Subtitle</div>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure class="playlist-card">
+
+                        <img src="./img/stranger.jpeg" alt="" class="img-width">
+                        <figcaption>
+                            <h3 class="white text-center">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                            <div class="grey text-center top-pad">Kyle Dixon & Michael Stein</div>
+                        </figcaption>
+
+                    </figure>
+                    
+                    <figure class="playlist-card">
+
+                        <img src="./img/aquietplace.jpeg" alt="" class="img-width">
+                        <figcaption>
+                            <h3 class="white text-center">A quiet place</h3>
+                            <div class="grey text-center top-pad">Subtitle</div>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure class="playlist-card">
+
+                        <img src="./img/split.jpeg" alt="" class="img-width">
+                        <figcaption>
+                            <h3 class="white text-center">Split</h3>
+                            <div class="grey text-center top-pad">Subtitle</div>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure class="playlist-card">
+
+                        <img src="./img/cure.jpeg" alt="" class="img-width">
+                        <figcaption>
+                            <h3 class="white text-center">A cure for wellness</h3>
+                            <div class="grey text-center top-pad">Subtitle</div>
+                        </figcaption>
+
+                    </figure>
+                    <figure class="playlist-card">
+
+                        <img src="./img/sinister.jpeg" alt="" class="img-width">
+                        <figcaption>
+                            <h3 class="white text-center">Sinister</h3>
+                            <div class="grey text-center top-pad">Subtitle</div>
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+                
             </section>
         </div>
     </main>
@@ -20,4 +110,5 @@
 
     </footer>
 </body>
+
 </html>
