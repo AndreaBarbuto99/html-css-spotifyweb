@@ -1,9 +1,26 @@
-/* FORMAT RULES */
+/* FORMAT RULES PAGE */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* FORMAT RULES */
+.main-flex {
+    height: calc(100vh - 100px );
+}
+
+
+.control-bar {
+    height: 100px
+}
+
+.left-bar {
+    width: 200px;
+}
+
+
+
 
 /* CENTRALIZED RULES */
 
@@ -12,6 +29,14 @@
 
 
 
+/* DEBUG */
+
+
+
 
 /* STYLE RULES */
+
+.main-flex {
+    display: flex;
+}
 
