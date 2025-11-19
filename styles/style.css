@@ -121,6 +121,32 @@ li {
     width: 15px;
 }
 
+.track-icons {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.pad-icon {
+    padding-right: 30px;
+}
+
+.track-name {
+    margin-left: 10px;
+}
+
+.track-image {
+    width: 50px;
+}
+
+.player {
+    margin-top: 15px;
+}
+
+.volume-icons {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
 
 
 
@@ -131,9 +157,17 @@ li {
     font-weight: 700;
 }
 
+.white-icon {
+    color: white;
+}
+
 .grey {
     color: #7A7D81;
     font-weight: 700;
+}
+
+.grey-icon {
+    color: grey;
 }
 
 .your-page-title {
@@ -165,6 +199,11 @@ li {
     scrollbar-width: thin;
     overflow-x: hidden;
 }
+
+.icon-padding {
+    padding-right: 30px;
+}
+
 
 /* DEBUG */
 
@@ -232,4 +271,41 @@ li {
     padding-top: 10px;
     margin-top: 10px;
     border-top: 1px solid grey;
+}
+
+.control-bar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player {
+    width: 30%;
+}
+
+.volume {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.progress {
+    width: 40%;
+}
+
+.volume-bar {
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.volume-bar::-webkit-slider-runnable-track {
+    background: grey;
+    height: 5px;
+    border-radius: 50px;   
+}
+
+.volume-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
 }
