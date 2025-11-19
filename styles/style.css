@@ -32,6 +32,7 @@ li {
     width: 200px;
     background-color: black;
     flex-shrink: 0;
+    position: relative;
 }
 
 .your-header {
@@ -112,6 +113,13 @@ li {
     padding: 10px 10px 10px 0;
 }
 
+.left-playlist ul {
+    max-height: 150px;
+}
+
+.little-image {
+    width: 15px;
+}
 
 
 
@@ -120,6 +128,7 @@ li {
 
 .white {
     color: white;
+    font-weight: 700;
 }
 
 .grey {
@@ -205,4 +214,22 @@ li {
 
 .create-flex {
     display: flex;
+}
+
+.left-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.profile-icon {
+    background-color: grey;
+    border-radius: 60%;
+    height: 30px;
+}
+
+.account {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid grey;
 }
