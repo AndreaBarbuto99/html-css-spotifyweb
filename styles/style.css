@@ -40,10 +40,13 @@ body {
 }
 
 .your-page {
-    width: calc(100% - 200px);
+    /* width: calc(100% - 200px); */
     background-color: #141922;
     font-weight: 600;
     overflow: scroll;
+    scrollbar-color: grey #141922;
+    
+    scrollbar-width: thin;
 }
 
 .nav-bar {
@@ -76,6 +79,25 @@ body {
     gap: 15px;
 }
 
+.big-logo {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pad-move {
+    padding-left: 5px;
+}
+
+.left-image {
+    width: 30px;
+}
+
+.left-bar h4 {
+    margin-top: 20px;
+}
+
+
+
 
 /* CENTRALIZED RULES */
 
@@ -85,6 +107,7 @@ body {
 
 .grey {
     color: #7A7D81;
+    font-weight: 700;
 }
 
 .your-page-title {
@@ -98,6 +121,13 @@ body {
 
 .margin-page {
     margin-left: 20px;
+}
+
+.move-menu {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 
 
