@@ -13,14 +13,18 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* FORMAT RULES */
 .main-flex {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     display: flex;
 }
 
 .control-bar {
-    height: 100px;
+    height: 80px;
     background-color: #282828;
 }
 
@@ -43,10 +47,6 @@ body {
     /* width: calc(100% - 200px); */
     background-color: #141922;
     font-weight: 600;
-    overflow: scroll;
-    scrollbar-color: grey #141922;
-    
-    scrollbar-width: thin;
 }
 
 .nav-bar {
@@ -62,8 +62,9 @@ body {
 }
 
 .card-padding {
-    padding-top:20px;
-    
+    padding-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 .top-pad {
@@ -94,7 +95,23 @@ body {
 
 .left-bar h4 {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
+
+.left-plus {
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.move-menu {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.li-pad {
+    padding: 10px 10px 10px 0;
+}
+
 
 
 
@@ -123,15 +140,22 @@ body {
     margin-left: 20px;
 }
 
-.move-menu {
-    margin-top: 10px;
-    margin-left: 15px;
+
+.round {
+    border-radius: 50%;
+}
+
+.flex-left {
     display: flex;
     align-items: center;
 }
 
-
-
+.overflow {
+    overflow: scroll;
+    scrollbar-color: grey black;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+}
 
 /* DEBUG */
 
@@ -179,6 +203,6 @@ body {
     margin-top: 40px;
 }
 
-.round {
-    border-radius: 50%;
+.create-flex {
+    display: flex;
 }

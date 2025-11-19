@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/responsive.css">
 </head>
@@ -23,39 +26,54 @@
 
             <section class="left-bar">
 
-            <!-- MOVE MENU SECTION -->
+                <!-- MOVE MENU SECTION -->
 
                 <div class="logo">
                     <img src="./img/logo.svg" alt="spotify-logo" class="big-logo card-padding">
                 </div>
 
-                <div class="move-menu">
-                  <img src="./img/home.svg" alt="home-icon" class="left-image">
-                  <span class="pad-move white">Home</span>
+                <div class="move-menu flex-left">
+                    <img src="./img/home.svg" alt="home-icon" class="left-image">
+                    <span class="pad-move white">Home</span>
                 </div>
 
-                <div class="move-menu">
+                <div class="move-menu flex-left">
                     <img src="./img/search.svg" alt="search-icon" class="left-image">
                     <span class="pad-move grey">Cerca</span>
                 </div>
 
-                <div class="move-menu">
+                <div class="move-menu flex-left">
                     <img src="./img/libreria.svg" alt="library-icon" class="left-image">
                     <span class="pad-move grey">La tua libreria</span>
                 </div>
 
                 <h4 class="white margin-page">PLAYLIST</h4>
                 <div class="left-playlist">
-                    <div class="create-playlist">
-                        
+                    <div class="flex-left">
+
+                        <i class="fa-solid fa-square-plus left-plus grey"></i><span class="grey">Crea playlist</span>
+
                     </div>
+
+                    <ul class="overflow grey margin-page">
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+                        <li class="li-pad">Nuova playlist</li>
+
+                    </ul>
                 </div>
-                
+
             </section>
 
 
             <!-- MAIN PAGE -->
-            <section class="your-page">
+            <section class="your-page overflow">
 
                 <div class="your-header">
                     <a href="#" class="upgrade-button white">EFFETTUA L'UPGRADE</a>
