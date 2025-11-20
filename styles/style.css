@@ -45,7 +45,7 @@ li {
 }
 
 .your-page {
-    /* width: calc(100% - 200px); */
+    width: 100%;
     background-color: #141922;
     font-weight: 600;
 }
@@ -59,7 +59,7 @@ li {
 }
 
 .img-width {
-    width: 200px;
+    width: 100%;
 }
 
 .card-padding {
@@ -219,12 +219,14 @@ li {
 .nav-bar {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .your-header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: 99999;
 }
 
 .upgrade-button {
@@ -243,17 +245,13 @@ li {
 }
 
 .playlist-card {
-    width: calc((100%/6) - (75px/5));
+    width: calc(100% / 6 - 15px);
 }
 
 .created-for-you {
     margin-top: 20px;
     display: flex;
     gap: 15px;
-}
-
-.artists-card {
-    margin-top: 40px;
 }
 
 .create-flex {
@@ -355,6 +353,10 @@ li {
     display: none;
 }
 
+.small-logo {
+    display: none;
+}
+
 /**************************HOVER**************************/
 .dark-h:hover .dark {
     filter: brightness(1);
@@ -393,5 +395,4 @@ li {
 .relative:hover .absolute {
      display: block;
      color: white;
-     
 }

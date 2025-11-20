@@ -1,0 +1,38 @@
+
+@media screen and (max-width:878px) {
+    
+    .playlist-card {
+        width: calc(100% / 4 - 15px);
+        gap: 15px;
+    }
+}
+
+
+@media screen and (max-width:639px) {
+     
+    .playlist-card {
+        width: calc(100% / 2 - 15px);
+        gap: 15px;
+    }
+
+}
+
+@media screen and (max-width:552px) {
+
+    .big-logo {
+        display:none;
+    }
+
+    .small-logo {
+        display:block;
+    }
+
+    .left-bar {
+        width: 60px;
+    }
+
+    .home, .search, .library, .flex-column, .left-title {
+        display: none;
+    }
+
+}
