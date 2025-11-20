@@ -343,16 +343,29 @@ li {
     filter: brightness(0.5);
 }
 
-/*                                              HOVER                                                       */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+/**************************HOVER**************************/
 .dark-h:hover .dark {
     filter: brightness(1);
 
 }
+
 .white-h:hover {
     color: white
 }
 
-.white-h:hover> * {
+.white-h:hover>* {
     color: white;
 }
 
@@ -371,4 +384,14 @@ li {
 
 .volume-progress:hover .thumb {
     display: block;
+}
+
+.relative:hover .img-width {
+    filter: brightness(0.5);
+}
+
+.relative:hover .absolute {
+     display: block;
+     color: white;
+     
 }
