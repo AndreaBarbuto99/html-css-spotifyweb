@@ -148,7 +148,7 @@ li {
 }
 
 .play-size {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 
@@ -232,6 +232,7 @@ li {
     border: 1px solid white;
     padding: 10px 40px;
     border-radius: 50px;
+    transition: transform .2s;
 }
 
 .your-playlist {
@@ -325,4 +326,20 @@ li {
 
 .volume-bar-middle {
     width: 80%;
+}
+
+
+/*                                              HOVER                                                       */
+
+.white-h:hover{
+    color:white
+}
+
+.white-h-under:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
 }
