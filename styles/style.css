@@ -309,6 +309,9 @@ li {
     background-color: white;
     height: 5px;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .progress {
@@ -328,11 +331,29 @@ li {
     width: 80%;
 }
 
+.thumb {
+    height: 15px;
+    background-color: white;
+    width: 15px;
+    border-radius: 100%;
+    display: none;
+}
+
+.dark {
+    filter: brightness(0.5);
+}
 
 /*                                              HOVER                                                       */
+.dark-h:hover .dark {
+    filter: brightness(1);
 
-.white-h:hover{
-    color:white
+}
+.white-h:hover {
+    color: white
+}
+
+.white-h:hover> * {
+    color: white;
 }
 
 .white-h-under:hover {
@@ -342,4 +363,12 @@ li {
 
 .zoom:hover {
     transform: scale(1.2);
+}
+
+.volume-progress:hover {
+    background-color: lightgreen;
+}
+
+.volume-progress:hover .thumb {
+    display: block;
 }
