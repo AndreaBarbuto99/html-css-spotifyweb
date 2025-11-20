@@ -48,37 +48,43 @@
                 </div>
 
                 <h4 class="white margin-page">PLAYLIST</h4>
-                <div class="left-playlist">
-                    <div class="flex-left">
+                <!-- LIST SECTION -->
+                <div class="flex-column">
+                    <div class="left-playlist">
+                        <div class="flex-left">
 
-                        <i class="fa-solid fa-square-plus left-plus grey"></i><span class="grey">Crea playlist</span>
+                            <i class="fa-solid fa-square-plus left-plus grey"></i><span class="grey">Crea
+                                playlist</span>
 
+                        </div>
+
+
+                        <ul class="overflow grey margin-page">
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+                            <li class="li-pad">Nuova playlist</li>
+
+                        </ul>
                     </div>
-                    <!-- LIST SECTION -->
-                    <ul class="overflow grey margin-page">
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
-                        <li class="li-pad">Nuova playlist</li>
 
-                    </ul>
+                    <div class="left-bottom margin-page">
+                        <div class="flex-left">
+                            <img src="./img/download.svg" alt="download-icon" class="little-image">
+                            <span class="grey pad-move">Installa app</span>
+                        </div>
+                        <div class="account flex-left">
+                            <img src="./img/profile.svg" alt="profile-icon" class="left-image profile-icon">
+                            <span class="white pad-move">John Doe</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="left-bottom margin-page">
-                    <div class="flex-left">
-                        <img src="./img/download.svg" alt="download-icon" class="little-image">
-                        <span class="grey pad-move">Installa app</span>
-                    </div>
-                    <div class="account flex-left">
-                        <img src="./img/profile.svg" alt="profile-icon" class="left-image profile-icon">
-                        <span class="white pad-move">John Doe</span>
-                    </div>
-                </div>
             </section>
 
 
@@ -245,8 +251,20 @@
             <!-- PROGRESS CONTROL BAR -->
 
             <div class="progress">
-                <div class="progress-icons"></div>
-                <div></div>
+                <div class="progress-icons">
+                    <i class="fa-solid fa-shuffle white-icon"></i>
+                    <i class="fa-solid fa-backward-step white-icon"></i>
+                    <i class="fa-regular fa-circle-play white-icon play-size"></i>
+                    <i class="fa-solid fa-forward-step white-icon"></i>
+                    <i class="fa-solid fa-arrow-rotate-right white-icon"></i>
+
+                </div>
+                <!-- VOLUME-BAR -->
+                <div class="nav-bar">
+                <div class="volume-bar volume-bar-middle">
+                    <div class="volume-progress"></div>
+                </div>
+                </div>
             </div>
 
 
@@ -254,12 +272,15 @@
             <!-- VOLUME CONTROL BAR -->
             <div class="volume">
                 <div class="volume-icons">
-                <i class="fa-solid fa-list white-icon icon-padding"></i>
-                <i class="fa-solid fa-desktop white-icon icon-padding"></i>
-                <i class="fa-solid fa-volume-high white-icon"></i>
+
+                    <i class="fa-solid fa-list white-icon icon-padding"></i>
+                    <i class="fa-solid fa-desktop white-icon icon-padding"></i>
+                    <i class="fa-solid fa-volume-high white-icon"></i>
+
                 </div>
-                <div>
-                    <input type="range" class="volume-bar">
+                <!-- VOLUME-BAR -->
+                <div class="volume-bar">
+                    <div class="volume-progress"></div>
                 </div>
             </div>
         </div>

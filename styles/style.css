@@ -147,6 +147,10 @@ li {
     margin-top: 5px;
 }
 
+.play-size {
+    font-size: 30px;
+}
+
 
 
 
@@ -290,22 +294,35 @@ li {
     align-items: center;
 }
 
+.volume-bar {
+    width: 30%;
+    background-color: grey;
+    height: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.volume-progress {
+    width: 50%;
+    background-color: white;
+    height: 5px;
+    border-radius: 10px;
+}
+
 .progress {
     width: 40%;
 }
 
-.volume-bar {
-    -webkit-appearance: none;
-    cursor: pointer;
-    margin-right: 10px;
+.progress-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
-.volume-bar::-webkit-slider-runnable-track {
-    background: grey;
-    height: 5px;
-    border-radius: 50px;   
-}
-
-.volume-bar::-webkit-slider-thumb {
-    -webkit-appearance: none;
+.volume-bar-middle {
+    width: 80%;
 }
